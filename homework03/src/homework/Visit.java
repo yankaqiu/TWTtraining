@@ -1,4 +1,7 @@
 package homework;
 
-public class Visit {
+public interface Visit<T> {
+     void operate(T t);
+
+
 }
